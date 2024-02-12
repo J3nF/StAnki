@@ -1,0 +1,39 @@
+"{{c1::Stratifying}} by category means to {{c2::fit a separate line/parameter}} for each category"
+;
+
+"{{c1::Causes}} are not in the data.
+Therefore, firstly think about the {{c2::scientific}} model, only afterwards about the {{c2::statistical}} model"
+;
+
+"{{c1::Dummy}} variables tell category belonging via {{c2:: giving a boolean}} for each category"
+;
+
+"{{c1::Index}} variables tell category belonging via {{c2:: numbers pointing}} to one category"
+;
+
+"When comparing categories, you need to calculate the {{c1:: contrast}} between categories"
+;
+
+"You are {{c1::never}} legitimate to compare {{c2::overlaps}} of parameters!
+
+This concretely means: I can not sensibly compare parameters via their {{c3::confidence intervals}} or {{c3::p-values}}!"
+;
+
+"The {{c1::contrast}} between categories is the {{c2::distribution of differences}} between categories"
+;
+
+"I can compute a contrast by using {{c1::posterior samples}} of the {{c2::category parameters}} in question"
+;
+
+"Inference with multi-variable linear models:
+
+Either: {{c1::Compute}} each estimand
+or: {{c1::Simulate}} each estimand as {{c2:: an intervention}}"
+;
+
+"Golden rule of categorical variable comparison:
+I want the {{c1::mean difference}}, not the {{c1::difference of means}}"
+;
+
+"For statistical models which are {{c2::non-linear} and {{c2::made from linear parts}}, I can go for {{c1::Splines}} or (maybe...) {{c1::Polynomials}}"
+;

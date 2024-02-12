@@ -1,0 +1,12 @@
+"'Antigentest negative [$]\rightarrow[/$] no COVID-19' ~ falsificationist?
+{{c1::No, [$]\exists false test results[/$]}}";
+
+"'2% black swans observed [$]\rightarrow[/$] [$]\frac{\text{black swans}}{\text{swan population}}\neq 5\%[/$]' ~ falsificationist?
+{{c1::No, population [$]\neq[/$] sample}}";
+
+"'Experiment rejects uncertainty principle [$]\rightarrow[/$] Physics: Uncertainty principle wrong' ~ falsificationist?
+{{c1::No, 'Falsified' [$]\in[/$] community consensus}}";
+
+"{{c1::Principle of indifference}}: {{c2::No reason p(a) > p(b) [$]\rightarrow[/$] p(a) = p(b)}}";
+
+"p-Value = {{c1::p(data|H0}}";

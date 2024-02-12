@@ -1,0 +1,27 @@
+"{{c1::symbols taking different values}} = {{c2::variables}}";
+
+"{{c1::unobserved variables}} = {{c2::parameters}}";
+
+"X is {{c2::parameter}} [$]\rightarrow[/$] {{c1::[$]\exists[/$] Prior(X)}}!";
+
+"'prior = ...' {{c1::[$]\subset[/$]}} {{c2::model}}!";
+
+"Lying w. priors: {{c1::Easily possible}} AND {{c2::blatantly obvious}}";
+
+"'Quadratic Approximation' =: '{{c1::QuAp}}'";
+
+"{{c1::QuAp}} ~ 'Fit|{{c2::Posterior~Gaussian}}'";
+
+"QuAp steps:
+1. {{c1::Peak-climbing}}
+2. {{c1::Curvature fitting}}";
+
+"QuAp: {{c1::[$]\sigma[/$]}} estimation via {{c2::Hessian [$]\vec\vec H[/$]}} of {{c3::log(posterior)}}";
+
+"'{{c1::maximum likelihood estimate}}' =: '{{c2::MLE}}'";
+
+"Often: QuAp ~ {{c1::MLE}}";
+
+"Because, often, {{c1::QuAp ~ MLE}} [$]\Rightarrow[/$] QuAp, old MLE results {{c2::comparable}}";
+
+

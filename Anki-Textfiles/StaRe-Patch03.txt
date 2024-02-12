@@ -1,0 +1,59 @@
+"Sampling: {{c2:integrating}} [$]\rightarrow[/$] {{c1::counting}}";
+
+"Julia: Return p(0.3 < theta < 0.8) via N samples:
+
+[latex]\begin{verbatim}
+{{c1::sum}}({{c1::@.}} {{c2::(samples>0.3)&(samples<0.8)}}) / {{c1::N}}
+\end{verbatim}[/latex]";
+
+"'{{c1::Compatability Interval}}' ~ '{{c2::model-compatible param. values}} interval'";
+
+"'{{c1::80% percentile interval}}' = {{c2::p(0.1 < theta < 0.9)}}";
+
+"'HPDI' ~ '{{c1::highest posterior density interval}}'";
+
+"50% HPDI ~ {{c1::narrowest interval w. 50% posterior density}}";
+
+"percentile intervals [$]\Rightarrow[/$] :(    , if {{c1::posterior asymmetric}}";
+
+"'MAP' ~ '{{c1::maximum a posteriori prob.}}'";
+
+"'MAP' ~ 'maximum a posteriori prob.', aka. {{c1::most likely point estimate}}";
+
+"loss function's job: '{{c1::best point estimate = ...}}'";
+
+"{{c2::lin.}} loss function [$]\Rightarrow[/$] loss min. via {{c1::median}}";
+
+"{{c2::quad.}} loss function [$]\Rightarrow[/$] loss min. via {{c1::mean}}";
+
+"Applying LINEAR loss function on p_grid:
+
+[latex]\begin{verbatim}
+loss = {{c1::map}}({{c1::p_pred}} {{c1::->}} sum(@. posterior * abs(p_pred - p_grid)), {{c1::p_grid}});
+\end{verbatim}[/latex]";
+
+"Applying LINEAR loss function on ONE p:
+
+[latex]\begin{verbatim}
+{{c1::sum}}({{c1::@.}} {{c2::posterior}} * {{c2::abs(p_pred - p_grid)}})
+\end{verbatim}[/latex]";
+
+"point estimates' {{c2::standard intent}} ~ {{c1::summarize posterior}}";
+
+"point estimates' standard intent {{c2::[$]\overset{!}{\neq}[/$]}} {{c1::guiding decisions}}";
+
+"point estimate needs {{c1::loss function}} for {{c2::guiding decisions}}";
+
+"model can {{c2::simulate}} [$]\Rightarrow[/$] model ~ '{{c1::generative}}' model";
+
+"Bayesian model generative via {{c1::likelihood}}";
+
+"Model checking, quant.ly: {{c1::dummy dist.s reconstructable}}?";
+
+"Model checking, qualit.ly: 'model's {{c1::small world predictions}} <3 {{c1::reality}}'?";
+
+"Bayesian uncertainty-preserving predictions via {{c1::posterior predictive distribuition}}";
+
+"Logic of posterior predictive dist:
+
+Sample {{c2::likelihood}} with {{c1::posterior-sampled parameter values}}";

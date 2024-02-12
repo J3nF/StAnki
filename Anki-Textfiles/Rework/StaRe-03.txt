@@ -1,0 +1,47 @@
+"Linear Regression is the statistical version of Geocentrsism, by being {{c1::mechanistically wrong}}, {{c1::accurate in describing}}, {{c1::a common approximation}} and {{c1::more highly regarded}}";
+
+"Linear Regression is a model of a variable's {{c1::mean}} and {{c1::variance}}";
+
+"A normal distribution model can have origins in {{c1::statistical generation}} or as {{c1::lest-informative distribution}} variable treatment";
+
+"Modelling variables as normally distributed can be useful for {{c1::normally AND non-normally distributed}} variables";
+
+"Anatomy of a linear model:
+
+[$]\underbrace{y_i}_\text{ {{c1::variable}} } = \underbrace{a}_\text{ {{c1::intercept}} } + \underbrace{b}_\text{ {{c1::slope}} }x_i[/$]
+
+is applied on
+
+[$]y_i \underbrace{~}_\text{ {{c2::'distribute like'}} } \text{Normal}(\underbrace{\mu_i}_\text{ {{c2::expectation}} },\underbrace{\sigma}_\text{ {{c2::standard deviation}} }) [/$]
+
+so that
+
+[$] \mu_i = a+bx_i[/$]
+";
+
+"Two key differences of a statistical model's structure, versus a generative model's structure, are
+1 -- {{c1::usefulness of variable rescaling}}
+2 -- {{c1::necessity to think about priors}}";
+
+"Priors are to be justified by {{c1::scientific information}}";
+
+"Important! One is to justify only with information {{c1::outside the data}}";
+
+"Priors can be well or badly justified -- a priori, there no {{c1::correct priors}}";
+
+"1st Law of Statistical Interpretation:
+
+{{c1::Parameters are not independent and can be interpreted independently only limitedly}}!
+
+Therefore, {{c2::interpret posterior predictions}}!";
+
+"Posterior predictive distribution:
+Plot {{c1::the sample}}, {{c1::the posterior mean}}, {{c2::the mean's uncertainty}}, {{c2::the predictions' uncertainty}}";
+
+"Dynamic vs. Static Generative Model:
+
+dynamic generative models imply {{c1::processes with memory}}, usually by {{c1::differential equations}}";
+
+"Dynamic vs Static Generative Model:
+
+static generative models imply {{c1::processes without memory}}, in turn implying {{c1::dependence on current input only}}";
