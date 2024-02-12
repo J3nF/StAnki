@@ -59,7 +59,7 @@ This way, if something in the import is wrong, you will not have to look for the
 - If you are using curved brackets within a cloze deletion, I consider it best practice to add blank spaces around each bracket not belonging to the cloze deletion structure. Otherwise, two (e.g., LaTeX-syntax related) curved brackets without blank spaces could wrongly tell Anki there is a start/end of a cloze deletion:
 
 ```
-"You can print bold AND cursive text in latex via [$] {{c1::\textbf{ \textit{ } }  [/$]}}
+"You can print bold AND cursive text in LaTeX via [$] {{c1::\textbf{ \textit{ } }  [/$]}}
 ";
 ```
 
