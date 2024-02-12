@@ -34,7 +34,7 @@ This way, if something in the import is wrong, you will not have to look for the
 "; 
 ```
 
-    Envelope a note's text with double quotation marks and tell Anki the note is done via a semicolon (` <body text with cloze deletions>";). This way, Anki will respect line breaks as they occur in the text.
+    As above, envelope a note's text with double quotation marks and tell Anki the note is done via a semicolon (` <body text with cloze deletions> `;). This way, Anki will respect line breaks as they occur in the text.
 
 - You can use multiple cloze deletions in one note. Using different numbers, e.g.
 
