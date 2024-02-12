@@ -4,8 +4,26 @@ Collection of Anki notes for repetition/summary of Richard McElreath's Statistic
 
 **For now, these are personal notes. I spent little time on checking for errors and may misunderstand parts of the book, which would be transferred into these cards!**
 
+## Usage
 
-## Rules of Thumb
+I recommend setting up a 'Import Test Deck' for importing to your Anki, so you can 1.) Always import into this deck, 2.) Browse through this deck to see if everything looks good, 3.) Edit potential errors/typos, 4.) Finally select all cards and move them into their destination deck.
+
+This way, if something in the import is wrong, you will not have to look for the cards in a already filled deck.
+
+
+1. Install the beautiful flashcard program [Anki](https://apps.ankiweb.net/)
+2. Download files of choice from this repository
+    1. from `stable` directories for using ready-made files 
+    2. From `testing` directories if you want to proofread untested files 
+3. Open Anki, press `Ctrl`+`Shift`+`P` (or navigate to & click `File`->`Import`)
+4. Find the downloaded file
+5. Adapt the import settings to fit the file format.
+    (Usually, all there is to it is changing `Field separator` from `Pipe` to `Semicolon`.)
+    1. Double-check that you import the notes into the correct deck
+6. Import!
+
+
+## Contributing: Rules of Thumb
 
 - Stick to best practices as described [here](https://super-memory.com/articles/20rules.htm), as long as sensibly possible ;)
 

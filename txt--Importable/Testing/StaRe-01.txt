@@ -1,0 +1,39 @@
+"Job of stat. models: {{c1::rate hypotheses}} via {{c2::data}}
+";
+
+"{{c1::Estimand}} := {{c2::to-be-estimated paramter(s)}}"
+;
+
+"Necessary for stat. model: {{c1::estimand}} AND {{c2::process model}}
+";
+
+"Order of Analysis, Science Model, Statistics Model:
+{{c1::Science Model}} [$]\rightarrow[\$] {{c1::Statistics Model}} [$]\rightarrow[\$] {{c1::Analysis}}
+";
+
+"MUST-HAVE for insight via Bayes: {{c1::Scientific model}} AND {{c1::Data}}
+";
+
+"Enabled by {{c1::causal inference}}: {{c2::imputation}}, {{c3::prediction}}
+";
+
+"Replication Crisis HOW-TO #1: {{c1::Population}} ~ {{c2::Sample}}
+";
+
+"'Antigentest negative [$]\Rightarrow[/$] no COVID-19' ~ falsificationist?
+{{c1::No, [$]\exists false test results[/$]}}
+";
+
+"'2% black swans observed [$]\Rightarrow[/$] [$]\frac{\text{black swans}}{\text{swan population}}\neq 5\%[/$]' ~ falsificationist?
+{{c1::No, population [$]\neq[/$] sample}}
+";
+
+"'Experiment rejects uncertainty principle [$]\rightarrow[/$] Physicists: Uncertainty principle wrong' ~ falsificationist?
+{{c1::No, 'Falsified' [$]\in[/$] community consensus}}
+";
+
+"{{c1::Principle of indifference}}: {{c2::No reason p(a) > p(b) [$]\Leftrightarrow[/$] p(a) = p(b)}}
+";
+
+"p-Value := [$] {{c1::p(data|Hi_0}} [/$]
+";

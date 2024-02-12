@@ -1,0 +1,145 @@
+"Linear Regression ~ {{c1::statisitcal geocentrsism}}
+";
+
+"Linear Regression ~ statistical geocentrism, because both are:
+{{c1::common}}, {{c1::accurate}}, yet often {{c2::mechanistically wrong}} and {{c1:: overhyped}}
+";
+
+"Linear Regression = model of {{c1::mean}} and {{c1::variance}}
+";
+
+"Normal distribution models: Justifyable due to {{c1::statistical generation}} or {{c1::least-informative}} approach
+";
+
+"Normal distribution models: Useful for {{c1::normally AND non-normally distributed}} variables
+";
+
+"Linear model:
+
+[$]\underbrace{y_i}_\text{ {{c1::variable}} } = \underbrace{a}_\text{ {{c1::intercept}} } + \underbrace{b}_\text{ {{c1::slope}} }x_i[/$]
+
+applied on
+
+[$]y_i \underbrace{~}_\text{ {{c2::'distribute like'}} } \text{Normal}(\underbrace{\mu_i}_\text{ {{c2::expectation}} },\underbrace{\sigma}_\text{ {{c2::standard deviation}} }) [/$]
+
+so that
+
+[$] \mu_i = a+bx_i[/$]
+";
+
+"Statistical versus Generative model: Structural differences
+1 -- {{c1::usefulness of variable rescaling}}
+2 -- {{c1::necessity to think about priors}}
+";
+
+"Priors are to be justified by {{c1::scientific information}}
+";
+
+"Important! One is to justify model only with information {{c1::outside the data}}
+";
+
+"Prior can be well or badly justified -- a priori, [$]\nexists[/$] {{c1::correct prior}}
+";
+
+"1st Law of Statistical Interpretation:
+
+§1.1    {{c1::Parameters ARE NOT independent.
+
+§1.2    {{c1::'Parameters [$]\approx[/$] independently only limitedly valid}}
+";
+
+"Generative Models: dynamic vs. static:
+
+{{c2::dynamic}} generative models imply {{c1::processes with memory}}, usually via {{c1::differential equations}}
+";
+
+"Dynamic vs Static Generative Model:
+
+{{c2::static}} generative models imply {{c1::processes without memory}}, in turn implying {{c1::dependence on current input only}}
+";
+
+"Sampling: '{{c2:integrating}} turns into {{c1::counting}}'
+";
+
+"Julia: Return p(0.3 < x < 0.8) via N samples:
+
+[latex]\begin{verbatim}
+{{c1::sum}}({{c1::@.}} {{c2::(samples>0.3)&(samples<0.8)}}) / {{c1::N}}
+\end{verbatim}[/latex]
+";
+
+"'{{c1::Compatability Interval}}' ~ '{{c2::model-compatible param. values}} interval'
+";
+
+"'{{c1::80% percentile interval of [$]\theta[/$]}}' = {{c2::0.1 < [$]p(theta)[/$] < 0.9)}}
+";
+
+"'HPDI' := '{{c1::highest posterior density interval}}'
+";
+
+"50% HPDI: '{{c1::narrowest interval w. 50% posterior density}}'
+";
+
+"'percentile intervals [$]\Rightarrow[/$] :('
+
+IF {{c1::posterior dist. asymmetric}}
+";
+
+"'MAP' := '{{c1::maximum a posteriori prob.}}'
+";
+
+"'MAP' := 'maximum a posteriori prob.', aka. {{c1::most probable point estimate}}
+";
+
+"loss function's job: '{{c1::best point estimate = ...}}'
+";
+
+"{{c2::lin.}} loss function [$]\Rightarrow[/$] loss min. via {{c1::median}}
+";
+
+"{{c2::quad.}} loss function [$]\Rightarrow[/$] loss min. via {{c1::mean}}
+";
+
+"Applying LINEAR loss function on p_grid (in Julia):
+
+[latex]\begin{verbatim}
+loss = {{c1::map}}({{c1::p_pred}} {{c1::->}} sum(@. posterior * abs(p_pred - p_grid)), {{c1::p_grid}});
+\end{verbatim}[/latex]
+";
+
+"Applying LINEAR loss function on ONE p (in Julia):
+
+[latex]\begin{verbatim}
+{{c1::sum}}({{c1::@.}} {{c2::posterior}} * {{c2::abs(p_pred - p_grid)}})
+\end{verbatim}[/latex]
+";
+
+"point estimates' {{c2::standard intent}} = {{c1::summarize posterior}}
+";
+
+"point estimates' standard intent {{c2::[$]\overset{!}{\neq}[/$]}} {{c1::guiding decisions}}
+";
+
+"point estimate NEEDS {{c1::loss function}} for {{c2::guiding decisions}}
+";
+
+"Can model {{c2::simulate}}? [$]\overset{yes}{\Rightarrow}[/$] model is '{{c1::generative}}' model
+";
+
+"Bayesian models: Generative via {{c1::likelihood [$]p(x|theta) [/$]}}
+";
+
+"Model checking, quant.ly: {{c1::dummy input dist.s reconstructable}}?
+";
+
+"Model checking, qualit.ly: {{c1::small world predictions}} <3 {{c1::reality}}?
+";
+
+"Bayesian predicting: Preserve uncertainty via {{c1::posterior predictive distribution}}
+";
+
+"Logic of posterior predictive dist.:
+
+Sample with {{c2::likelihood}} with {{c1::posterior-sampled parameter values}}
+";
+

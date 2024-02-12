@@ -1,0 +1,10 @@
+"{{c1::Likelihood}} := {{c2::P(data|hypothesis)}}
+";
+
+"Probability := {{c1::relative belief into hypothesES}}
+     --{{c2::Bayes}}
+";
+
+"Probability := {{c1::proportion of outcomes}}
+    --{{c2::Frequentist}}
+";
