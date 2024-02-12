@@ -6,12 +6,12 @@ Collection of Anki notes for repetition/summary of Richard McElreath's Statistic
 
 ## Usage
 
-I recommend setting up a 'Import Test Deck' for importing to your Anki, so you can 1.) Always import into this deck, 2.) Browse through this deck to see if everything looks good, 3.) Edit potential errors/typos, 4.) Finally select all cards and move them into their destination deck.
+I recommend setting up a 'Import Test Deck' for importing to your Anki, so you can 1.) Always import into this deck, 2.) Browse through this deck to see if everything looks good, 3.) Edit potential errors/typos, 4.) Finally, select all cards and move them into their destination deck.
 
 This way, if something in the import is wrong, you will not have to look for the cards in a already filled deck.
 
 
-1. Install the beautiful flashcard program [Anki](https://apps.ankiweb.net/)
+1. Install the excellent [Anki](https://apps.ankiweb.net/) flashcard program 
 2. Download files of choice from this repository
     1. from `stable` directories for using ready-made files 
     2. From `testing` directories if you want to proofread untested files 
@@ -34,7 +34,7 @@ This way, if something in the import is wrong, you will not have to look for the
 "; 
 ```
 
-    Envelope a note's text with double quotation marks and tell Anki the note is done via a semicolon (` <body text with cloze deletions>";). This way, Anki will respect linebreaks as they occur in the text.
+    Envelope a note's text with double quotation marks and tell Anki the note is done via a semicolon (` <body text with cloze deletions>";). This way, Anki will respect line breaks as they occur in the text.
 
 - You can use multiple cloze deletions in one note. Using different numbers, e.g.
 
@@ -59,7 +59,7 @@ This way, if something in the import is wrong, you will not have to look for the
 ";
 ```
 
-- If you are using curved brackets within a cloze deletion, I consider it best practice to ad whitespaces around each bracket not belonging to the cloze deletion structure. Otherwise, two (e.g., Latex-syntac related) curved brackets without whitespaces could wrongly tell Anki there is a start/end of a cloze deletion:
+- If you are using curved brackets within a cloze deletion, I consider it best practice to add blank spaces around each bracket not belonging to the cloze deletion structure. Otherwise, two (e.g., LaTeX-syntax related) curved brackets without blank spaces could wrongly tell Anki there is a start/end of a cloze deletion:
 
 ```
 "You can print bold AND cursive text in latex via [$] {{c1::\textbf{ \textit{ } }  [/$]}}
