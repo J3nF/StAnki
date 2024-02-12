@@ -49,7 +49,7 @@ This way, if something in the import is wrong, you will not have to look for the
 "The University of {{c1::{{c2::Göttingen}} }} was established in {{c1::1734}}.
 ";
 ```
-- For maths or ~~nerdy~~ nice symbols, you can include latex environments:
+- For maths or ~~nerdy~~ nice symbols, you can include LaTeX in `[$] <TeX math env. code> [/$]`:
 
 ```
 "According to Einstein's special relativity, [$] E = m_0 {{c1:: c^2 }} [/$].
